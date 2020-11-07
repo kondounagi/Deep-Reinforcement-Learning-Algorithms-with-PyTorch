@@ -12,7 +12,7 @@ from gym.utils import seeding
 from matplotlib import pyplot
 
 
-class Custom_Environment(gym.Env):
+class Sort_Layers_Environment(gym.Env):
     """Custom environment """
     environment_name = "Custom"
 
@@ -254,3 +254,4 @@ class Custom_Environment(gym.Env):
                             cmap=cmap, norm=norm)
         print("Black = wall, White = empty, Blue = user, Red = goal")
         pyplot.show()
+
